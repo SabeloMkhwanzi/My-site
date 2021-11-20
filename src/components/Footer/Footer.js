@@ -10,7 +10,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
+          <LinkItem href="mailto:sabelo.mailme@gmail.com">
             sabelo.mailme@gmail.com
           </LinkItem>
         </LinkColumn>
@@ -20,13 +20,13 @@ const Footer = () => {
           <Slogan>Are you looking for Software Developer, you have found one</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="#">
+          <SocialIcons href="https://github.com/SabeloMkhwanzi">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="#">
+      <SocialIcons href="https://twitter.com/SabeloMkhwanaz">
         <AiOutlineTwitter size="3rem" />
       </SocialIcons>
-      <SocialIcons href="#">
+      <SocialIcons href="https://www.linkedin.com/in/sabelo-mkhwanazi-54ba431b1/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
         </SocialContainer>

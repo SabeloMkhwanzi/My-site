@@ -16,29 +16,29 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects" passHref>
+        <Link href="#about" passHref>
+          <NavLink>About</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#project" passHref>
           <NavLink>Project</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#tech" passHref>
-          <NavLink>Tech-Skills</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#about" passHref>
-          <NavLink>About</NavLink>
+          <NavLink>Tools</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="#"> 
+      <SocialIcons href="https://github.com/SabeloMkhwanzi"> 
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="#">
+      <SocialIcons href="https://twitter.com/SabeloMkhwanaz">
         <AiOutlineTwitter size="3rem" />
       </SocialIcons>
-      <SocialIcons href="#">
+      <SocialIcons href="https://www.linkedin.com/in/sabelo-mkhwanazi-54ba431b1/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
     </Div3>
@@ -46,8 +46,3 @@ const Header = () =>  (
 );
 
 export default Header;
-
-
-// https://github.com/SabeloMkhwanzi
-// https://twitter.com/SabeloMkhwanaz
-// https://www.linkedin.com/in/sabelo-mkhwanazi-54ba431b1/

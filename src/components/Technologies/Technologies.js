@@ -1,50 +1,55 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiReact, DiCssTricks, DiJavascript } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
  <Section id="tech">
    <SectionDivider divider />
-   <SectionTitle>Skills</SectionTitle>
+   <SectionTitle>Tools</SectionTitle>
     <SectionText>
-     These are the Technologies that I've have worked with as Software Developer.
-      From the front-end to Back-end  
+     These are Tools I've been worked From the front-end to Back-end.  
     </SectionText>
     <List>
       <ListItem>
         <picture>
-          {/* <DiReact size='3rem' /> */}
+           <DiJavascript size='3rem' />
         </picture>
         <ListContainer>
           <ListTitle>Programming Languages</ListTitle>
           <ListParagraph>
-            JavaScript - Node.js <br/>
+            JavaScript<br />
+            TypeScript<br />
             Solidity
           </ListParagraph>
         </ListContainer>
       </ListItem>
         <ListItem>
         <picture>
-          {/* <DiReact size='3rem' /> */}
+           <DiReact size='3rem' />
         </picture>
         <ListContainer>
-          <ListTitle>Languages Frameworks</ListTitle>
+          <ListTitle>Front-End Frameworks</ListTitle>
           <ListParagraph>
             React.js <br/>
+            Next.js <br/>
+            Hardhat <br/>
             Truffle
           </ListParagraph>
         </ListContainer>
       </ListItem>
           <ListItem>
         <picture>
-          {/* <DiReact size='3rem' /> */}
+          <DiCssTricks size='3rem' /> 
         </picture>
         <ListContainer>
-          <ListTitle>API</ListTitle>
+          <ListTitle>UI Tools</ListTitle>
           <ListParagraph>
-            Socket.io
+            Chakra-UI <br />
+            Tailwindcss <br />
+            Material-UI <br />
+            Ant Design
           </ListParagraph>
         </ListContainer>
       </ListItem>

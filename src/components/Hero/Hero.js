@@ -15,7 +15,7 @@ const Hero = () => (
    <SectionText>
      Passionate, Purpose driven skilled Software Developer offering to contribute my Software & Blockchain development expertise to your project. I believe your project currently serves to bring solutions and need a dedicated Developer to your project with responsibility, accountability, and exceptional service etiquette. 
    </SectionText>
-   <Button onClick={() => window.location = "https://google.com"}> learn More</Button>
+   <Button onClick={() => window.location = "https://github.com/SabeloMkhwanzi"}> learn More</Button>
   </LeftSection>
 </Section>
 );
