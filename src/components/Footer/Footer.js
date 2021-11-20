@@ -36,8 +36,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-// https://github.com/SabeloMkhwanzi
-// https://twitter.com/SabeloMkhwanaz
-// https://www.linkedin.com/in/sabelo-mkhwanazi-54ba431b1/
