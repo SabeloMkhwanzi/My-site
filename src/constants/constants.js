@@ -21,7 +21,7 @@ export const projects = [
     title: 'DeFi DexSwap - Fixed Exchange Rate (DEX)',
     description: "A decentralized exchange (DEX) is a cryptocurrency exchange which operates in a decentralized way, without a central authority.",
     image: '/images/3.jpg',
-    tags: ['React.js', 'Next.js', 'Solidity', 'Web3.js', 'Truffle-framework'],
+    tags: ['Next.js', 'Solidity', 'Web3.js', 'Truffle-framework'],
     source: 'https://github.com/SabeloMkhwanzi/defi_DexSwap',
     visit: 'https://defi-dex-swap.vercel.app/',
     id: 2,
